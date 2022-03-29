@@ -1,0 +1,46 @@
+@mixin button {
+  width: 173px;
+  height: 48px;
+  border:none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: $main-white;
+  background: $main-red;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+@mixin box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+
+@mixin btn {
+     width: 129px;
+     height: 48px;
+     border: 1px solid $main-white;
+     border-radius: 24px;
+     background-color: transparent;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 18px;
+     text-align: center;
+     letter-spacing: -0.115385px;
+     cursor: pointer;
+     color: $main-white;
+
+     &:hover {
+       color: $main-black;
+       background-color: $main-white;
+       transition: all 355ms ease;
+     }
+}
+

@@ -1,0 +1,47 @@
+.header{
+  background: #EDF3F8;
+
+ 
+  
+  &__desktop{
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__left{
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: $main-blue;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+
+    &:hover{
+      color: $main-blue;
+       opacity: 1;
+    }
+ 
+  }
+
+  &__btn{
+    @include button;
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+   
+
+
+
+}

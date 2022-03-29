@@ -1,0 +1,53 @@
+.section{
+  padding-top: 150px;
+  &__top{
+    padding-right: 135px;
+    padding-bottom: 150px;
+    @include box;
+  }
+
+  &__img{
+    width: 445px;
+    height: 284px;
+  }
+
+  &__heading{
+    padding-bottom: 24px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: $main-blue;
+
+  }
+
+  &__text{
+    max-width: 445px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C8294;
+  }
+
+  &__bottom{
+    @include box;
+  }
+
+  &__bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__bottom-img{
+    margin-right: 40px;
+  }
+    
+
+
+  
+
+
+}
