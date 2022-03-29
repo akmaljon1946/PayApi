@@ -317,6 +317,39 @@ body {
   opacity: 0.7;
 }
 
+.header__mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: none;
+}
+
+@media only screen and (max-width: 730px) {
+  .header__left {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header__desktop {
+    display: none;
+  }
+  .header__mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+}
+
 .hero {
   background: #EDF3F8;
   padding-bottom: 75px;
@@ -413,6 +446,69 @@ body {
   opacity: 0.7;
 }
 
+@media only screen and (max-width: 730px) {
+  .hero__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-right: 0;
+  }
+  .hero__img {
+    width: 159px;
+    height: 300px;
+  }
+  .hero__heading {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .hero .form__email {
+    margin-left: 44px;
+  }
+  .hero .form__btn {
+    right: 50px;
+  }
+  .hero .form__text {
+    padding-left: 144px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero__wrapper {
+    padding-top: 0;
+  }
+  .hero__img {
+    width: 127px;
+    height: 240px;
+  }
+  .hero__heading {
+    margin: 0;
+    padding-top: 25px;
+    max-width: 327px;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px;
+  }
+  .hero .form__btn {
+    width: 327px;
+    top: 65px;
+    left: 2px;
+  }
+  .hero .form__email {
+    width: 327px;
+    margin: 0;
+  }
+  .hero .form__text {
+    position: absolute;
+    top: 140px;
+    padding-left: 50px;
+  }
+}
+
 .work {
   background: #1B262F;
 }
@@ -493,6 +589,30 @@ body {
   gap: 40px;
 }
 
+@media only screen and (max-width: 730px) {
+  .work__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-right: 0;
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+  .work__right {
+    padding-bottom: 64px;
+  }
+  .work__left {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .work {
+    margin-top: 160px;
+  }
+}
+
 .section {
   padding-top: 150px;
 }
@@ -561,6 +681,49 @@ body {
 
 .section__bottom-img {
   margin-right: 40px;
+}
+
+@media only screen and (max-width: 730px) {
+  .section {
+    padding-top: 100px;
+  }
+  .section__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-right: 0;
+    padding-bottom: 100px;
+  }
+  .section__img {
+    width: 380px;
+    height: 249px;
+  }
+  .section__right {
+    padding-top: 48px;
+    text-align: center;
+  }
+  .section__text {
+    max-width: 600px;
+  }
+  .section__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .section__bottom-img {
+    width: 168px;
+    height: 320px;
+    margin-right: 25px;
+  }
+  .section__bottom-img:last-child {
+    margin-right: 0;
+  }
+  .section__bottom-left {
+    padding-top: 48px;
+    text-align: center;
+  }
 }
 
 .money {
@@ -678,6 +841,36 @@ body {
   opacity: 0.7;
 }
 
+@media only screen and (max-width: 730px) {
+  .money {
+    padding-top: 100px;
+  }
+  .money__list {
+    padding: 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .money__item {
+    max-width: 223px;
+  }
+  .money__img {
+    width: 88px;
+    height: 88px;
+  }
+  .money__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .money__bottom-title {
+    padding-bottom: 40px;
+  }
+}
+
 .footer {
   margin-bottom: 250px;
   background-color: #1B262F;
@@ -742,5 +935,15 @@ body {
 
 .footer__img path:hover {
   fill: #DA6D97;
+}
+
+@media only screen and (max-width: 730px) {
+  .footer__desktop {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer__left {
+    max-width: 410px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
