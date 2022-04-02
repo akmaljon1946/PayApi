@@ -67,8 +67,55 @@
 @media only screen and (max-width:375px) {
   .work{
     margin-top: 160px;
+
+    &_-inner{
+      padding-top: 80px;
+    }
+
+    &__right{
+      padding-left: 28px;
+      padding-right: 28px;
+      padding-bottom: 56px;
+    }
+
+    &__img-tes{
+      width: 107px;
+      height: 15px;
+    }
+    &__img-mic{
+      width: 120px;
+      height: 26px;
+    }
+    &__img-hew{
+      width: 115px;
+      height: 22px;
+    }
+    &__img-orc{
+      width: 108px;
+      height: 14px;
+    }
+    &__img-go{
+      width: 79px;
+      height: 27px;
+    }
+    &__img-nvi{
+      width: 113px;
+      height: 22px;
+    }
+
+    &__heading{
+      font-size: 32px;
+      text-align: center;
+      letter-spacing: -0.246154px;
+      line-height: 36px;
+    }
+
+    &__text{
+      max-width: 327px;
+    }
   }
 }
+      
 
 
 

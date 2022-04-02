@@ -9,6 +9,8 @@
   &__img{
     width: 445px;
     height: 284px;
+    box-shadow: 25px 25px 80px 
+    rgba(54, 83, 107, 0.300727);
   }
 
   &__heading{
@@ -43,6 +45,8 @@
 
   &__bottom-img{
     margin-right: 40px;
+    box-shadow: 25px 25px 80px 
+    rgba(54, 83, 107, 0.300727);
   }
     
 }
@@ -94,6 +98,38 @@
 
   }
 }
+
+@media only screen and (max-width:375px) {
+  .section{
+    &__img{
+      width: 328px;
+      height: 209px;
+    }
+
+    &__top{
+      padding-bottom: 80px;
+    }
+
+    &__heading{
+      font-size: 36px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: -0.276923px;
+    }
+
+    &__text{
+      max-width: 328px;
+    }
+
+    &__bottom-img{
+      width: 152px;
+      height: 290px;
+
+    }
+  }
+}
+       
+
 
 
   

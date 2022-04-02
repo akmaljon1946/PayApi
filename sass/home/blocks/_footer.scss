@@ -1,5 +1,5 @@
 .footer{
-  margin-bottom: 250px;
+  // margin-bottom: 250px;
   background-color: $main-black;
 
   &__desktop{
@@ -53,5 +53,24 @@
     }
   }
 }
+
+ @media only screen and (max-width:375px) {
+   .footer{
+  
+     &__desktop{
+       flex-direction: column;
+       padding-top: 41px;
+       padding-bottom: 55px;
+     }
+
+     &__left{
+       flex-direction: column;
+     }
+
+     &__link,&__logo-link{
+       padding-bottom: 40px;
+     }
+   }
+ }
 
 

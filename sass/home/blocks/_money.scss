@@ -111,6 +111,63 @@
       }
     }
 
+    @media only screen and (max-width:375px) {
+      .money{
+        padding-top: 80px;
+
+        &__list{
+          flex-direction: column;
+        }
+
+        &__img{
+          width: 106px;
+          height: 106px;
+        }
+
+        &__item{
+         max-width: 328px;
+         padding-bottom: 48px;
+         &:last-child{
+           padding-bottom: 0;
+         }
+        }
+
+        &__bottom{
+          padding-top: 80px;
+          padding-bottom: 150px;
+        }
+
+        &__bottom-title{
+          font-size: 32px;
+          line-height: 36px;
+          text-align: center;
+          letter-spacing: -0.246154px;
+        }
+
+         .form{
+      &__btn{
+        width: 327px;
+        top: 65px;
+        left: 2px;
+      }
+
+      &__email{
+        width: 327px;
+        margin: 0;
+      }
+
+      &__text{
+        position: absolute;
+        top: 140px;
+        padding-left: 50px;
+      }
+    }
+  }
+}
+   
+
+
+
 
 
 
