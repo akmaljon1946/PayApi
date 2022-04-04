@@ -1,13 +1,14 @@
-.header{
+.header {
   background: #EDF3F8;
-  &__desktop{
+
+  &__desktop {
     padding-top: 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  &__left{
+  &__left {
     max-width: 450px;
     width: 100%;
     display: flex;
@@ -15,56 +16,137 @@
     justify-content: space-between;
   }
 
-  &__link{
+  &__link {
     text-decoration: none;
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-    color: $main-blue;
     mix-blend-mode: normal;
     opacity: 0.7;
+    color: $main-blue;
 
-    &:hover{
+    &:hover {
+      opacity: 1;
       color: $main-blue;
-       opacity: 1;
     }
- 
+
   }
 
-  &__btn{
+  &__btn {
     @include button;
-    &:hover{
+
+    &:hover {
       opacity: 0.7;
     }
   }
 
   //mobile
-  &__mobile{
+  &__mobile {
     @include box;
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  &__closed {
     display: none;
   }
 }
 
 @media only screen and (max-width:730px) {
-  .header{
+  .header {
 
-    &__left{
+    &__left {
       max-width: 400px;
       width: 100%;
     }
   }
 }
 
-@media only screen and (max-width:375px) {
-  .header{
-    &__desktop{
+@media only screen and (max-width:480px) {
+  .header {
+    &__desktop {
       display: none;
     }
 
-    &__mobile{
+    &__mobile {
       display: flex;
       padding-top: 40px;
       padding-bottom: 32px;
+      padding-left: 7px;
+      padding-right: 7px;
     }
+
+    &__mobile-btn {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    &__link {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      mix-blend-mode: normal;
+      padding-bottom: 32px;
+      color: $main-white;
+
+      &:hover {
+        opacity: 1;
+        color: $main-blue;
+      }
+    }
+
+    &__btn {
+      @include button;
+      width: 230px;
+
+    }
+
+    .menu {
+      display: none;
+    }
+
+    //menu
+
+    .menu--on {
+      position: absolute;
+      top: 0;
+      right: 23px;
+      display: block;
+      width: 277px;
+      height: 667px;
+      background: #1B262F;
+      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      z-index: 100;
+
+
+      &__closed--button {
+        position: absolute;
+        display: block;
+        top: 48px;
+        right: 25px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+
+      &__inner {
+        width: 229px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 95px;
+        padding-top: 43px;
+        border-top: 1px solid rgba(251, 252, 254, 0.15);
+      }
+    }
+
+    //menu
+
   }
 }
