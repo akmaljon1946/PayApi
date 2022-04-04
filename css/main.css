@@ -696,7 +696,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   .work {
     margin-top: 160px;
   }
@@ -860,7 +860,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   .section__img {
     width: 328px;
     height: 209px;
@@ -1028,7 +1028,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   .money {
     padding-top: 80px;
   }
@@ -1150,7 +1150,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   .footer__desktop {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
