@@ -75,8 +75,8 @@
       display: flex;
       padding-top: 40px;
       padding-bottom: 32px;
-      padding-left: 7px;
-      padding-right: 7px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     &__mobile-btn {
@@ -85,7 +85,46 @@
       cursor: pointer;
     }
 
-    &__link {
+    &__menu {
+      display: none;
+    }
+    //menu
+
+    &__menu--on{
+      position: absolute;
+      top: 0;
+      right: 23px;
+      display: block;
+      width: 277px;
+      height: 667px;
+      background: #1B262F;
+      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      z-index: 100;
+
+    }
+
+    &__menu-closed--button {
+      position: absolute;
+      display: block;
+      top: 48px;
+      right: 25px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    &__menu-inner {
+      width: 229px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 95px;
+      padding-top: 43px;
+      border-top: 1px solid rgba(251, 252, 254, 0.15);
+    }
+  
+    &__menu-link {
       text-decoration: none;
       font-weight: 700;
       font-size: 20px;
@@ -100,53 +139,10 @@
       }
     }
 
-    &__btn {
+    &__menu-btn {
       @include button;
       width: 230px;
 
     }
-
-    .menu {
-      display: none;
-    }
-
-    //menu
-
-    .menu {
-      position: absolute;
-      top: 0;
-      right: 23px;
-      display: block;
-      width: 277px;
-      height: 667px;
-      background: #1B262F;
-      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-      z-index: 100;
-
-
-      &__closed--button {
-        position: absolute;
-        display: block;
-        top: 48px;
-        right: 25px;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
-      }
-
-      &__inner {
-        width: 229px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 95px;
-        padding-top: 43px;
-        border-top: 1px solid rgba(251, 252, 254, 0.15);
-      }
-    }
-
-    //menu
-
-  }
+  } 
 }
