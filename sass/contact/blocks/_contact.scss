@@ -1,0 +1,82 @@
+.contact{
+  &__heading{
+    max-width: 730px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.430769px;
+    color: #36536B;
+  }
+
+  &__inner{
+    @include box;
+  }
+
+  .form{
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+
+    &__input{
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid rgba(54, 83, 107, 0.2);
+      padding-bottom: 16px;
+      padding-top: 24px;
+      padding-left: 20px;
+    }
+
+    &__message{
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid rgba(54, 83, 107, 0.2);
+      padding-top: 24px;
+      padding-bottom: 64px;
+      padding-left: 20px;
+    }
+
+    &__label{
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    &__checkbox{
+      margin-right: 20px;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__btn{
+      width: 152px;
+      height: 48px;
+      border-radius: 24px;
+      border: 1px solid $main-blue;
+      background-color: transparent;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: -0.115385px;
+      color:$main-blue;
+      &:hover{
+        background-color: $main-blue;
+        color:$main-white;
+        transition: all 355ms ease;
+      }
+    }
+  }
+
+  &__right{
+    max-width: 541px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__box-img,path{
+    fill: #36536B;
+  }
+}
+   
+

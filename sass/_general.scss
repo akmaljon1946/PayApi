@@ -6,17 +6,26 @@
     padding: 0;
 }
 
-body {
+html,body {
+  height: 100%;
   margin: 0;
   padding: 0;
   background: #EDF3F8;
   font-family: Public sans , "Arial", sans-serif;
 }
 
+.wrapper{
+  min-height: 100%;
+}
+
 .container {
   max-width: 1150px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0 auto;
+}
+.large-container {
+  max-width: 1440px;
   margin: 0 auto;
 }
 
