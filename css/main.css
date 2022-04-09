@@ -362,6 +362,222 @@ html, body {
   color: #BA4270;
 }
 
+@media only screen and (max-width: 771px) {
+  .about__heading {
+    max-width: none;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 74px;
+    padding-bottom: 54px;
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -0.369231px;
+  }
+  .about__box1, .about__box2 {
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about__box2 {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about__text {
+    max-width: 456px;
+    width: 100%;
+  }
+  .about__img--cover {
+    padding-top: 92px;
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .about__statistics-list {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about__heading {
+    padding-top: 16px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246154px;
+  }
+  .about__box1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 48px;
+  }
+  .about__title {
+    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.184615px;
+  }
+  .about__text {
+    max-width: 327px;
+    text-align: center;
+  }
+  .about__box2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about__img--cover {
+    display: none;
+  }
+  .about__statistics-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about__statistics-item {
+    text-align: center;
+  }
+  .large-container {
+    margin-top: 76px;
+    width: 480px;
+    height: 380px;
+    background-image: url(../images/friendsmob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.money-box {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.money-box__title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+}
+
+.money-box .form {
+  position: relative;
+}
+
+.money-box .form__email {
+  width: 100%;
+  max-width: 445px;
+  height: 48px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 225px;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+          box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+}
+
+.money-box .form__text {
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6C8294;
+}
+
+.money-box .form__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 173px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #FBFCFE;
+  background: #BA4270;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+          box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+}
+
+.money-box .form__btn:hover {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 771px) {
+  .money-box {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .money-box__title {
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .money-box {
+    padding-top: 32px;
+    padding-bottom: 150px;
+  }
+  .money-box__title {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246154px;
+  }
+  .money-box .form__btn {
+    width: 327px;
+    top: 65px;
+    left: 2px;
+  }
+  .money-box .form__email {
+    width: 327px;
+    margin: 0;
+  }
+  .money-box .form__text {
+    position: absolute;
+    top: 140px;
+    padding-left: 50px;
+  }
+}
+
 .price__heading {
   padding-top: 82px;
   padding-bottom: 72px;
@@ -487,7 +703,7 @@ html, body {
   transition: all 355ms ease;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .price__heading {
     padding-top: 75px;
     padding-bottom: 69px;
@@ -613,7 +829,7 @@ html, body {
   opacity: 0.7;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .money-bottom {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -745,7 +961,7 @@ html, body {
   display: none;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .header__left {
     max-width: 400px;
     width: 100%;
@@ -941,7 +1157,7 @@ html, body {
   opacity: 0.7;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .hero__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1085,7 +1301,7 @@ html, body {
   gap: 40px;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .work__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1224,7 +1440,7 @@ html, body {
           box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .section {
     padding-top: 100px;
   }
@@ -1405,7 +1621,7 @@ html, body {
   opacity: 0.7;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .money {
     padding-top: 100px;
   }
@@ -1550,7 +1766,7 @@ html, body {
   fill: #DA6D97;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 771px) {
   .footer__desktop {
     padding-left: 20px;
     padding-right: 20px;
@@ -1605,6 +1821,7 @@ html, body {
 
 .contact .form {
   max-width: 445px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1632,15 +1849,28 @@ html, body {
   padding-left: 20px;
 }
 
-.contact .form__label {
-  padding-top: 24px;
-  padding-bottom: 24px;
+.contact .form__text {
+  padding-left: 20px;
 }
 
-.contact .form__checkbox {
-  margin-right: 20px;
+.contact .form #check5 {
   width: 24px;
   height: 24px;
+  margin-right: 20px;
+}
+
+.contact .form__check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contact .form__btn {
@@ -1673,7 +1903,37 @@ html, body {
       flex-wrap: wrap;
 }
 
-.contact__box-img, .contact path {
+.contact__right-heading {
+  margin-bottom: 40px;
+  max-width: 445px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.184615px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  color: #36536B;
+}
+
+.contact__box {
+  max-width: 541px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 55px;
+}
+
+.contact path {
   fill: #36536B;
 }
 /*# sourceMappingURL=main.css.map */

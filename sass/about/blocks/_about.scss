@@ -86,6 +86,131 @@
     color: #BA4270;
   }
 
+}
+
+//responsive
+
+@media only screen and (max-width:771px) {
+  .about{
+    &__heading{
+      max-width: none;
+      padding: {
+        left: 69px;
+        right: 69px;
+        top: 74px;
+        bottom: 54px;
+      }
+        margin: 0;
+        font-size: 48px;
+        text-align: center;
+        letter-spacing: -0.369231px;
+    }
+
+    &__box1,&__box2{
+      margin-left: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &__box2{
+      margin-left: 0;
+      margin-bottom: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    
+    &__text{
+      max-width: 456px;
+      width: 100%;
+    }  
+
+    &__img--cover{
+      padding-top: 92px;
+      width: 100%;
+      // max-width: 1440px;
+      // min-width: 769px;
+      height: auto;
+      // max-height: 500px;
+      // min-height: 513px;
+      object-fit: contain;
+
+    }
+
+    &__statistics-list{
+      padding: {
+        top: 64px;
+        bottom: 64px;
+        right: 20px;
+        left: 20px;
+
+      }
+    }
+  }
+}
+      
+@media only screen and (max-width:480px) {
+  .about{
+    &__heading{
+      padding: {
+        top: 16px;
+        bottom: 40px;
+        left: 60px;
+        right: 60px;
+
+      }
+      font-size: 32px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: -0.246154px;
+    }
+
+    &__box1{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 48px;
+    }
+
+    &__title{
+      padding-bottom: 16px;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.184615px;
+    }
+
+    &__text{
+      max-width: 327px;
+      text-align: center;
+    }
+
+    &__box2{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__img--cover{
+      display: none;
+    }
+
+    &__statistics-list{
+      flex-direction: column;
+    }
+
+    &__statistics-item{
+      text-align: center;
+    }
+  }
+  .large-container{
+    margin-top: 76px;
+    width: 480px;
+    height: 380px;
+    background-image: url(../images/friendsmob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  }
+      
+
 
 
     
@@ -99,4 +224,3 @@
 
 
     
-}

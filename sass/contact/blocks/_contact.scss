@@ -16,6 +16,7 @@
 
   .form{
     max-width: 445px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 
@@ -37,16 +38,25 @@
       padding-left: 20px;
     }
 
-    &__label{
-      padding-top: 24px;
-      padding-bottom: 24px;
+    &__text{
+      padding-left: 20px;
     }
 
-    &__checkbox{
-      margin-right: 20px;
+    #check5{
       width: 24px;
       height: 24px;
+      margin-right: 20px;
     }
+
+    &__check{
+      @include box;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+    }
+
+    
+ 
 
     &__btn{
       width: 152px;
@@ -68,14 +78,38 @@
     }
   }
 
+
+
+
   &__right{
     max-width: 541px;
     display: flex;
     flex-wrap: wrap;
   }
+  
+  &__right-heading{
+    margin-bottom: 40px;
+    max-width: 445px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.184615px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    color: #36536B;
+  }
+    
+  &__box{
+    max-width: 541px;
+    @include box;
+    flex-wrap: wrap;
+    gap: 55px;
+  }
 
-  &__box-img,path{
-    fill: #36536B;
+  path{
+    fill: $main-blue;
   }
 }
    
