@@ -458,7 +458,7 @@ html, body {
   }
   .large-container {
     margin-top: 76px;
-    width: 480px;
+    width: 450px;
     height: 380px;
     background-image: url(../images/friendsmob.png);
     background-repeat: no-repeat;
@@ -1935,5 +1935,33 @@ html, body {
 
 .contact path {
   fill: #36536B;
+}
+
+@media only screen and (max-width: 771px) {
+  .contact__heading {
+    font-size: 48px;
+    letter-spacing: -0.369231px;
+    text-align: center;
+    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 54px;
+    padding-left: 94px;
+    padding-right: 94px;
+  }
+  .contact__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact__right {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact__right-heading {
+    padding-top: 64px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */

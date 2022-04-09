@@ -112,5 +112,36 @@
     fill: $main-blue;
   }
 }
+
+@media only screen and (max-width:771px) {
+  .contact{
+    &__heading{
+      font-size: 48px;
+      letter-spacing: -0.369231px;
+      text-align: center;
+      margin: 0;
+      padding: {
+        top: 75px;
+        bottom: 54px;
+        left: 94px;
+        right: 94px;
+      }
+    }
+
+    &__inner{
+      flex-direction: column;
+    }
+
+    &__right{
+      justify-content: center;
+    }
+
+    &__right-heading{
+      padding-top: 64px;
+      text-align: center;
+    }
+
+  }
+}
    
 
