@@ -1964,4 +1964,26 @@ html, body {
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 771px) {
+  .contact__heading {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px;
+  }
+  .contact .form {
+    max-width: 327px;
+  }
+  .contact__right {
+    max-width: 327px;
+  }
+  .contact__box {
+    gap: 40px;
+    padding-bottom: 48px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
