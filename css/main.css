@@ -224,6 +224,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #EDF3F8;
+  font-family: Public sans , "Arial", sans-serif;
 }
 
 .wrapper {
