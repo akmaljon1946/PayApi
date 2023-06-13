@@ -1120,6 +1120,7 @@ html, body {
     padding-top: 80px;
   }
   .work__right {
+    padding-left: 25px;
     padding-right: 35px;
     padding-bottom: 56px;
   }
