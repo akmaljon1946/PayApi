@@ -1472,11 +1472,13 @@ html, body {
   }
 }
 @media only screen and (max-width: 500px) {
+  .footer {
+    width: 500px;
+  }
   .footer__desktop {
     flex-direction: column;
     padding-top: 41px;
     padding-bottom: 55px;
-    padding-left: 30px;
   }
   .footer__left {
     flex-direction: column;
