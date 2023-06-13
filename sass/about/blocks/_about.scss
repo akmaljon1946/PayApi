@@ -143,7 +143,7 @@
 	}
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
 	.about {
 		&__heading {
 			padding: {
@@ -195,7 +195,7 @@
 	}
 	.large-container {
 		margin-top: 76px;
-		width: 300px;
+		width: 420px;
 		height: 380px;
 		background-image: url(../images/friendsmob.png);
 		background-repeat: no-repeat;
