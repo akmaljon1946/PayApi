@@ -1112,7 +1112,7 @@ html, body {
     text-align: center;
   }
 }
-@media only screen and (max-width: 771px) {
+@media only screen and (max-width: 480px) {
   .work {
     margin-top: 160px;
   }
@@ -1120,7 +1120,6 @@ html, body {
     padding-top: 80px;
   }
   .work__right {
-    padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 56px;
   }
