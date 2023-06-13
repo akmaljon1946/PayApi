@@ -1473,7 +1473,7 @@ html, body {
 }
 @media only screen and (max-width: 500px) {
   .footer {
-    width: 300px;
+    width: 400px;
   }
   .footer__desktop {
     flex-direction: column;
