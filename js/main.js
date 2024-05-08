@@ -5,6 +5,7 @@ const closeBtn = document.querySelector('.header__menu-closed--button')
 
 menuham.addEventListener('click', e => {
 	menu.classList.add('header__menu--on')
+	menu.classList.remove('header__menu--animation-out')
 	menu.classList.add('header__menu--animation-in')
 	curtain.classList.add('curtain--on')
 })
