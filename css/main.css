@@ -854,7 +854,7 @@ html, body {
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     z-index: 100;
   }
-  .header .animation-in {
+  .header__menu--animation-in {
     animation-name: zoom-in;
     animation-duration: 500ms;
   }

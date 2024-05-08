@@ -100,7 +100,7 @@
 			z-index: 100;
 		}
 
-		.animation-in {
+		&__menu--animation-in {
 			animation-name: zoom-in;
 			animation-duration: 500ms;
 		}
