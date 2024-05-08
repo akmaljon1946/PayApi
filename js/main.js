@@ -12,6 +12,7 @@ menuham.addEventListener('click', e => {
 closeBtn.addEventListener('click', () => {
 	menu.classList.remove('header__menu--on')
 	menu.classList.remove('header__menu--animation-in')
+	menu.classList.add('header__menu--animation-out')
 
 	// curtain.classList.remove('curtain--on')
 })

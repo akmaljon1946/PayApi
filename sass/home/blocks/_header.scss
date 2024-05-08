@@ -105,12 +105,25 @@
 			animation-duration: 500ms;
 		}
 
+		&__menu--animation-out {
+			animation-name: zoom-out;
+			animation-duration: 500ms;
+		}
+
 		@keyframes zoom-in {
 			from {
 				transform: scale(0);
 			}
 			to {
 				transform: scale(1);
+			}
+		}
+		@keyframes zoom-in {
+			from {
+				transform: scale(1);
+			}
+			to {
+				transform: scale(0);
 			}
 		}
 
