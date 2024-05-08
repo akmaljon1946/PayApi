@@ -1472,9 +1472,6 @@ html, body {
   }
 }
 @media only screen and (max-width: 500px) {
-  .footer {
-    width: 330px;
-  }
   .footer__desktop {
     flex-direction: column;
     padding-top: 41px;
